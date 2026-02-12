@@ -1,0 +1,59 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Virtual environments / Python (if added later)
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Tools / binaries - downloaded by the script, don't commit
+tools/
+tools/*
+
+# Specific tool files (explicit)
+tools/yt-dlp.exe
+tools/ffmpeg.zip
+tools/ffmpeg/
+tools/ffmpeg.exe
+tools/ffprobe.exe
+
+# Downloaded videos and output folders (DO NOT commit)
+Downloads/
+downloads/
+YouTubeDownloads/
+*/YouTubeDownloads/
+*.mp4
+*.mkv
+*.webm
+*.mp3
+
+# Cookie and credential files
+cookies.txt
+*.key
+*.pem
+*.crt
+.env
+
+# Archives / packaged downloads
+*.zip
+*.tar.gz
+*.7z
